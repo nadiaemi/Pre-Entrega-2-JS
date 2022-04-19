@@ -1,0 +1,66 @@
+body{
+    background-color: lavender;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1{
+    color: crimson;
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+.contenedorSeleccion{
+    margin: 1em 2em;
+    
+}
+
+h3{
+    color:deeppink;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 1.4em;
+
+}
+
+select{
+    font-family: 'Public Sans', sans-serif;
+    color:indigo;
+    font-size: 1em;
+}
+
+.mensajesSeleccion{
+    font-family: 'Public Sans', sans-serif ;
+}
+
+button{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    color: indigo;
+    margin: auto;
+    
+}
+
+#resumen{
+    margin: 1em;
+    padding: 1em;
+}
+
+#resumen h3{
+    color: midnightblue;
+}
+
+#resumen p{
+    font-family: 'Public Sans', sans-serif ;
+    color: indigo;
+}
